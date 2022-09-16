@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/student-reviews",
+      "handler": "student-review.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/student-reviews/count",
+      "handler": "student-review.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/student-reviews/:id",
+      "handler": "student-review.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/student-reviews",
+      "handler": "student-review.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/student-reviews/:id",
+      "handler": "student-review.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/student-reviews/:id",
+      "handler": "student-review.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

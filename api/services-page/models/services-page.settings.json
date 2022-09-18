@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "countries",
+  "kind": "singleType",
+  "collectionName": "services_pages",
   "info": {
-    "name": "Country"
+    "name": "Services Page"
   },
   "options": {
     "increments": true,
@@ -11,13 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "Description_Title": {
       "type": "string"
     },
     "Description": {
       "type": "richtext"
     },
-    "Image": {
+    "Description_Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -28,13 +28,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "Slug": {
-      "type": "uid",
-      "targetField": "Name"
-    },
-    "Content": {
-      "type": "richtext"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/service-counter",
+      "handler": "service-counter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/service-counter",
+      "handler": "service-counter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/service-counter",
+      "handler": "service-counter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/student-reviews",
-      "handler": "student-review.find",
+      "path": "/sliders",
+      "handler": "slider.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/student-reviews/count",
-      "handler": "student-review.count",
+      "path": "/sliders/count",
+      "handler": "slider.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/student-reviews/:id",
-      "handler": "student-review.findOne",
+      "path": "/sliders/:id",
+      "handler": "slider.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/student-reviews",
-      "handler": "student-review.create",
+      "path": "/sliders",
+      "handler": "slider.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/student-reviews/:id",
-      "handler": "student-review.update",
+      "path": "/sliders/:id",
+      "handler": "slider.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/student-reviews/:id",
-      "handler": "student-review.delete",
+      "path": "/sliders/:id",
+      "handler": "slider.delete",
       "config": {
         "policies": []
       }

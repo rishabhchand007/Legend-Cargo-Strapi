@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "success_stories",
+  "collectionName": "sliders",
   "info": {
-    "name": "Success Story"
+    "name": "Slider"
   },
   "options": {
     "increments": true,
@@ -11,10 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Content": {
-      "type": "richtext"
+    "Title": {
+      "type": "string"
     },
-    "Image": {
+    "Slider_Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -25,6 +25,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "Slider_Description": {
+      "type": "text"
     }
   }
 }

@@ -38,10 +38,10 @@
     "Copyright": {
       "type": "string"
     },
-    "Header_Description": {
+    "Home_Description": {
       "type": "richtext"
     },
-    "Landing_Page_Image": {
+    "Home_Description_Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

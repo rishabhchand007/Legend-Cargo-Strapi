@@ -18,10 +18,10 @@
     "About_Content": {
       "type": "richtext"
     },
-    "Why_Choose": {
+    "About_Content2": {
       "type": "richtext"
     },
-    "Who_We_Are": {
+    "Why_Choose": {
       "type": "richtext"
     },
     "About_Content_Image": {
@@ -36,7 +36,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Why_Choose_Image": {
+    "About_Content2_Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -60,26 +60,17 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Why_Choose_Title": {
+    "About_Title2": {
       "type": "string"
     },
-    "Who_We_Are_Title": {
-      "type": "string"
-    },
-    "Message_From_CEO": {
+    "Fast_Delivery": {
       "type": "richtext"
     },
-    "CEO_Photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "Safe_Delivery": {
+      "type": "richtext"
+    },
+    "Best_Service": {
+      "type": "richtext"
     }
   }
 }

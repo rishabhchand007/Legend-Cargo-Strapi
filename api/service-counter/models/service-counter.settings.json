@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_counters",
+  "info": {
+    "name": "Service Counter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Package_Delivered": {
+      "type": "string"
+    },
+    "Package_Delivered_Description": {
+      "type": "text"
+    },
+    "Countires_Covered": {
+      "type": "string"
+    },
+    "Countries_Covered_Description": {
+      "type": "text"
+    },
+    "Happy_Customer": {
+      "type": "string"
+    },
+    "Happy_Customer_Description": {
+      "type": "text"
+    },
+    "Year_Experience": {
+      "type": "string"
+    },
+    "Year_Experience_Delivered": {
+      "type": "text"
+    },
+    "Main_Description": {
+      "type": "text"
+    }
+  }
+}

@@ -64,6 +64,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "Home_Description_Title": {
+      "type": "string"
     }
   }
 }

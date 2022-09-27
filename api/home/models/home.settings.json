@@ -67,6 +67,9 @@
     },
     "Home_Description_Title": {
       "type": "string"
+    },
+    "Footer_Text": {
+      "type": "richtext"
     }
   }
 }
